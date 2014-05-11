@@ -1,7 +1,7 @@
 \documentclass[8pt]{beamer}
 \usepackage[polish]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[T4]{fontenc}
+\usepackage[T1]{fontenc}
 \usepackage{subcaption}
 \usepackage{multicol}
 %\usepackage{pgfpages}
@@ -14,8 +14,8 @@
 \author[inż. Paweł Bogner, inż. Grzegorz Maj]{inż. Paweł Bogner, inż. Grzegorz Maj}
 \institute[PWr]{Politechnika Wrocławska}
 
-\setbeamercovered{transparent=10}
-\usetheme{Warsaw}
+\setbeamercovered{transparent=30}
+\usetheme{Madrid}
 \bibliographystyle{plain}
 
 \begin{document}
@@ -39,6 +39,7 @@
 \section{Przegląd dostępnych protez}
 
 \begin{frame}%{Przegląd dostępnych protez}
+\frametitle{Protezy dostępne na rynku}
 	\begin{center}
 		\begin{figure}
 			\includegraphics[width=0.7\textwidth]{graphics/hands.jpg}
@@ -65,8 +66,9 @@
 
 \section{Budowa robotycznych rąk}
 
-	\subsection{Budowa dłoni}
+	
 		\begin{frame}
+		\frametitle{Budowa dłoni}
 			\begin{center}
 				\begin{figure}
 					\includegraphics[width=\textwidth]{graphics/three_hand.jpg}
@@ -76,7 +78,7 @@
 			\end{center}
 		\end{frame}				
 
-	\subsection{Sterowanie palcem}
+	\frametitle{Sterowanie palcem}
 		\begin{frame}
 			\begin{center}
 				\begin{figure}
@@ -101,6 +103,7 @@
 \section{Ręka Bebionic}
 
 	\begin{frame}%{Ręka Bebionic}
+	\frametitle{Właściwości}
 		bebionic3
 		\begin{itemize}[<+->]
 	\item osobne silniki na każdy palec, rozmieszczenie optymalnosiłowe,
@@ -193,6 +196,7 @@ W systemie są zaprojektowane algorytmy, które przetwarzają dane sensoryczne w
 \section{Sprzężenie zwrotne}
 
 \begin{frame}%{Sprzężenie zwrotne}
+\frametitle{Schemat sprzężenia zwrotnego}
 	\begin{center}
 		\begin{figure}
 			\includegraphics[width=\textwidth]{graphics/feedback.jpg}
@@ -318,15 +322,6 @@ W systemie są zaprojektowane algorytmy, które przetwarzają dane sensoryczne w
 
 \begin{frame}[allowframebreaks]
 	\bibliography{bibliography}
-\end{frame}
-		
-\begin{frame}
-\begin{center}
-				\begin{figure}
-					\includegraphics[width=0.3\textwidth]{graphics/dog.jpg}
-					\caption{Naki’o now has 4 prosthetic legs and is able to run around happily!}
-				\end{figure}
-			\end{center}
 \end{frame}
 
 \end{document}
